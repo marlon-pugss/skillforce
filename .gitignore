@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Node (if scripts are added later)
+node_modules/
+npm-debug.log*
+
+# Salesforce / SFDX local artifacts
+.sfdx/
+.sf/
+.localdevserver/
+*.log

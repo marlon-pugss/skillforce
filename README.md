@@ -28,7 +28,9 @@ that supports skills (OpenCode, Claude Code, Codex, Cursor, and others).
 │   ├── operating-sf-cli/
 │   ├── investigating-runtime-errors/
 │   ├── managing-product-backlog/
-│   └── orchestrating-salesforce-development/
+│   ├── orchestrating-salesforce-development/
+│   └── local-memory/
+├── tests/
 └── README.md
 ```
 
@@ -61,6 +63,7 @@ Or clone this repository and point your tool at the `skills/` directory.
 | `investigating-runtime-errors` | Investigates runtime error logs captured in a custom logging object |
 | `managing-product-backlog` | Writes, prioritizes, and scores product backlog items |
 | `orchestrating-salesforce-development` | Routing guide: which skill to use for each kind of task |
+| `local-memory` | Stores project-local conversation memory as Markdown with SQLite FTS5 search |
 
 ## Conventions shared by these skills
 

@@ -7,8 +7,15 @@
 node_modules/
 npm-debug.log*
 
+# Python
+__pycache__/
+*.py[cod]
+
 # Salesforce / SFDX local artifacts
 .sfdx/
 .sf/
 .localdevserver/
 *.log
+
+# Local agent memory (private, never commit)
+.memory/
